@@ -1,0 +1,72 @@
+.background {
+	background-image: url(../images/mainone.png);
+	width: 100%;
+	height: 925px;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.fly {
+	position: absolute;
+	top: 370px;
+	right:650px;
+	width: 60px;
+	height: 60px;
+	animation: fly 5s infinite;
+
+}
+.fly1 {
+    position: absolute;
+    top: 340px;
+    right: 530px;
+    width: 60px;
+	height: 60px;
+    animation: flyy 10s infinite;
+}
+.fly2 {
+	position: absolute;
+	top:300px ;
+	right:500px;
+	width: 60px;
+	height: 60px;
+    animation: flyyy 7s infinite;
+}
+.brian {
+	position: absolute;
+	top: 480px;
+	right:500px;
+	width:350px;
+	height:300px;
+}
+.logo  {
+	position: absolute;
+	top:100px;
+	left: 0px;
+	width: 250px;
+	height: 200px;
+	animation: logo 20s infinite; 
+
+
+
+}
+@keyframes fly {
+  
+    0%{right:500px;}
+    50%{right:700px;}
+    100%{right:500px;}
+	
+}
+@keyframes flyy {
+	0%{right:400px;}
+    50%{right:650px;}
+    100%{right:400px;}
+}
+@keyframes flyyy {
+	0%{right:450px;}
+    50%{right:670px;}
+    100%{right:450px;}
+}
+@keyframes logo {
+	0%{left: 0px}
+	50%{left:80%;}
+	100%{left:0px;}
+}
